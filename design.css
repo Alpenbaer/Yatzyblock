@@ -13,12 +13,12 @@ table#Tabelle1 tr:nth-child(odd) {
 table#Tabelle1 th {
  color: white;
  background-color: black;
- padding: 4px 4px 2px 4px;
+ padding: 0px 0px 0px 0px;
 }
 
 table#Tabelle1 td {
  border: 1px solid black;
- padding: 2px;
+ padding: 0px;
 }
 
 table#Tabelle1 tr:last-of-type td {
