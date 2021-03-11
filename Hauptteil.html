@@ -242,3 +242,57 @@ Total
         <TR>
 </body>
 </html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Schichtenmodell einer Tabelle</title>
+<style>
+
+  table, th, td  {border: 1px solid black; border-spacing: 10px;}
+  th, td         {padding: 20px;}
+  #tabelle       {background-color: #8a9da8;}
+  #spaltengruppe {background-color: #df6c20;}
+  #spalte        {background-color: #5c82d9;}
+  #zeilengruppe  {background-color: #8db243; color: #ffffff;}
+  #zeile         {background-color: #e7c157;}
+  #zelle         {background-color: #c32e04;}
+
+</style>
+</head>
+<body>
+  <table id="tabelle">
+    <caption>Tabelle zur Veranschaulichung des Schichtenmodells</caption>
+    <colgroup id="spaltengruppe">
+      <col id="spalte">
+      <col>
+      <col>
+    </colgroup>
+    <colgroup>
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+	<th>Ü 1</th>
+	<th>Ü 2</th>
+	<th>Ü 3</th>
+	<th>Ü 4</th>
+      </tr>
+    </thead>
+    <tbody id="zeilengruppe">
+      <tr id="zeile">
+        <td id="zelle">Zelle 1</td>
+	<td>Zelle 2</td>
+	<td>Zelle 3</td>
+	<td>Zelle 4</td>
+      </tr>
+      <tr>
+        <td>Zelle 5</td>
+	<td>Zelle 6</td>
+	<td>Zelle 7</td>
+	<td>Zelle 8</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
