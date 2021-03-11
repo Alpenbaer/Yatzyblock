@@ -1,32 +1,4 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
-<table id="Tabelle1">
- <tr>
- <th> Überschrift Spalte 1 </th>
- <th> Überschrift Spalte 2 </th>
- <th> Überschrift Spalte 3 </th>
- </tr>
- <tr>
- <td> Eintrag 1.1 </td>
- <td> Eintrag 1.2 </td>
- <td> Eintrag 1.3 </td>
- </tr>
- <tr>
- <td> Eintrag 2.1 </td>
- <td> Eintrag 2.2 </td>
- <td> Eintrag 2.3 </td>
- </tr>
- <tr>
- <td> Eintrag 3.1 </td>
- <td> Eintrag 3.2 </td>
- <td> Eintrag 3.3 </td>
- </tr>
- <tr>
- <td colspan="3"> Diese Fußzeile erstreckt sich über die ganze Tabelle. </td>
- </tr>
-</table
-
-Um die Tabelle zu stylen, verwenden wir folgenden CSS Code:
-
 table#Tabelle1 {
  border: 1px solid black;
 }
