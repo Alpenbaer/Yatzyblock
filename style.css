@@ -18,3 +18,35 @@ th, caption {
   background-color: #f1f3f4;
   font-weight: 700;
 }
+ ul#navigation li a:link {
+        display: block;
+        border: 1px solid #000;
+        background-color: #00FFCC;
+        padding: 10px;
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    ul#navigation li a:hover {
+        display: block;
+        border: 1px solid #54993f;
+        background-color: #727165;
+        color: #fff;
+    }
+    -->
+    </style>
+</head>
+<body>
+    <ul id="navigation">
+        <li><a href="start.html">Startseite</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="infos.html">Informationen</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </ul>
+</body>
+</html>
