@@ -18,30 +18,3 @@ th, caption {
   background-color: #f1f3f4;
   font-weight: 700;
 }
-table#Tabelle1 {
- border: 1px solid black;
-}
-
-table#Tabelle1 tr:nth-child(even) {
- background-color: #eee
-}
-
-table#Tabelle1 tr:nth-child(odd) {
- background-color: #fff;
-}
-
-table#Tabelle1 th {
- color: white;
- background-color: black;
- padding: 0px 0px 0px 0px;
-}
-
-table#Tabelle1 td {
- border: 1px solid black;
- padding: 0px;
-}
-
-table#Tabelle1 tr:last-of-type td {
- background-color: fffb99;
- text-align: center;
-}
