@@ -1,17 +1,19 @@
 h1 {
-  font-family: Garamond, serif;
-  font-weight: normal;
-  margin-bottom: 4em;
-  text-align: center;
+  font-size: 300%;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  transform: scale(1,2);
 }
 
 #eins {
-  font-size: 350%;
-}
-
-#zwei {
-  font-size: 540%;
-}
+  color: red;
+  display: inline-block;
+  transform: translate(0.1em,0.6em) rotate(100deg) scale(1,2);
+  width: 2em;
+  height: 1em;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px black;
 table, th, td, caption {
   border: 1px solid #a0a0a0;
 }
