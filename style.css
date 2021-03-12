@@ -18,11 +18,27 @@ th, caption {
   background-color: #f1f3f4;
   font-weight: 700;
 }
- ul#navigation li a:link {
-        display: block;
+ <html>
+<head>
+    <style type="text/css">
+    <!--
+    ul#navigation {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    ul#navigation li {
+        padding: 0px;
+        margin: 0px;
+        display: inline;
+    }
+
+    ul#navigation li a:link {
         border: 1px solid #000;
-        background-color: #00FFCC;
-        padding: 10px;
+        background-color: #CCCCCC;
+        padding: 2px 5px 2px 5px;
+        font-size: 12px;
         color: #000;
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
@@ -30,9 +46,9 @@ th, caption {
     }
 
     ul#navigation li a:hover {
-        display: block;
-        border: 1px solid #54993f;
-        background-color: #727165;
+        border: 1px solid #000;
+        background-color: #333333;
+        padding: 2px 5px 2px 5px;
         color: #fff;
     }
     -->
@@ -40,13 +56,9 @@ th, caption {
 </head>
 <body>
     <ul id="navigation">
-        <li><a href="start.html">Startseite</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="infos.html">Informationen</a></li>
-        <li><a href="galerie.html">Galerie</a></li>
-        <li><a href="links.html">Links</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="Hauptteil.html">Block</a></li>
+        <li><a href="Regeln und Hinweise.html">Regeln und Hinweise</a></li>
     </ul>
 </body>
 </html>
