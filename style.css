@@ -1,3 +1,17 @@
+h2 {
+  font-family: Garamond, serif;
+  font-weight: normal;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+#eins {
+  font-size: 350%;
+}
+
+#zwei {
+  font-size: 540%;
+}
 table, th, td, caption {
   border: 1px solid #a0a0a0;
 }
