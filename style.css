@@ -25,4 +25,5 @@ th, caption {
 td.fetterRahmen{
     border-width: thick;
     border-style: solid;
+    border-color: black;
 }
