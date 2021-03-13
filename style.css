@@ -23,7 +23,7 @@ th, caption {
   font-weight: 700;
 }
 td.fetterRahmen{
-    border-width: thick;
+    border-width: medium;
     border-style: solid;
     border-color: black;
 }
