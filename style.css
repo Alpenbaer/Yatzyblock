@@ -21,24 +21,35 @@ td.fetterRahmen{
 .spalte1{
     background-color: lightgray;
 }
-.myButton {
-	background-color:#7892c2;
-	border-radius:28px;
-	border:1px solid #4e6096;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:15px 34px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
-}
-.myButton:hover {
-	background-color:#476e9e;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+ul#navigation {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
 
+	ul#navigation li {
+		padding: 0px;
+		margin: 0px;
+		display: inline;
+	}
+
+	ul#navigation li a:link {
+		border: 1px solid #476e9e;
+		background-color: #7892c2;
+		padding: 2px 5px 2px 5px;
+		font-size: 12px;
+		color: #fff;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	ul#navigation li a:hover {
+		border: 1px solid #476e9e;
+		background-color: #476e9e;
+		padding: 2px 5px 2px 5px;
+		color: #fff;
+	}
+    a:visited {
+    color: #fff;
+    }
