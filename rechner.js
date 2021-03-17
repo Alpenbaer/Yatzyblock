@@ -14,6 +14,8 @@ function zwischentotal() {
     }else{
     document.getElementsByName('bonus')[0].value= 0;
     }
+    total();
+
 }
 function total() {
    //total berechnen
@@ -30,3 +32,4 @@ function total() {
     var yatzy = document.getElementsByName('yatzy')[0].value;
     var total = zwischentotal*1 + bonus*1 + paar1*1 + paar2*1 + gleiche3*1 + gleiche4*1 + grossestrasse*1 + kleinestrasse*1 + fullhouse*1 + chance*1 + yatzy*1;
     document.getElementsByName('total')[0].value= total;
+}
