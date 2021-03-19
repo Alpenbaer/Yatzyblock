@@ -1,4 +1,4 @@
-function zwischentotal(var spalte) {
+function zwischentotal(spalte) {
    //Zwischentotal berechnen
     var einer = document.getElementsByName('einer_1')[spalte].value;
     var zweier = document.getElementsByName('zweier_2')[spalte].value;
@@ -17,7 +17,7 @@ function zwischentotal(var spalte) {
     total();
 
 }
-function total(var spalte) {
+function total(spalte) {
    //total berechnen
     var zwischentotal = document.getElementsByName('zwischentotal')[spalte].value;
     var bonus = document.getElementsByName('bonus')[spalte].value;
